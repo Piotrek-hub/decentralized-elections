@@ -1,10 +1,11 @@
-// 1. import `NextUIProvider` component
 import { NextUIProvider } from '@nextui-org/react';
+import Nav from '../components/shared/Navbar';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }: any) {
 	return (
-		// 2. Use at the root of your app
 		<NextUIProvider>
+			<Nav />
 			<Component {...pageProps} />
 		</NextUIProvider>
 	);
