@@ -33,7 +33,7 @@ export default function Hero() {
 							</Row>
 						</Card.Body>
 					</Card>
-					<Button flat>Vote now!</Button>
+					<Button flat>Connect to Metamask to continue!</Button>
 				</Container>
 			</Grid>
 		</Grid.Container>
